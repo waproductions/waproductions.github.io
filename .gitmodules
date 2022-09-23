@@ -1,0 +1,3 @@
+[submodule "themes/electric-mass"]
+	path = themes/electric-mass
+	url = git@github.com:electric-mass/hugo-theme.git
