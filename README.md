@@ -1,6 +1,6 @@
 # wap.github.io
 
-The [wap.github.io](http://wap.github.io/) website code.
+The [waproductions.github.io](http://waproductions.github.io/) website code.
 
 ## Contributing
 
@@ -10,13 +10,13 @@ to contribute to this project.
 ## Versioning
 
 This project uses [SemVer](http://semver.org/) for versioning. For the versions
-available, see the [tags on this repository](https://github.com/wap/wap.github.io/tags).
+available, see the [tags on this repository](https://github.com/waproductions/waproductions.github.io/tags).
 
 ## Authors
 
 * **Frederico Martins** - [fscm](https://github.com/fscm)
 
-See also the list of [contributors](https://github.com/wap/wap.github.io/contributors)
+See also the list of [contributors](https://github.com/waproductions/waproductions.github.io/contributors)
 who participated in this project.
 
 ## License
