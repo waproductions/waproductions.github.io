@@ -1,0 +1,69 @@
+# War Arts Productions website
+# Configuration parameters.
+
+baseURL = ""
+enableRobotsTXT = true
+disableKinds = [
+    "RSS",
+    "section",
+    "taxonomy",
+    "term"
+]
+languageCode = 'en-us'
+publishDir = "docs"
+theme = "electric-mass"
+title = "War Arts Productions"
+
+[author]
+    name = "Frederico Martins"
+
+[params]
+    copyright = "&copy; 2022 War Arts Productions"
+    description = "War Arsts Productions' website."
+    headerBackground = "/images/background.jpg"
+    headerLogo = "/images/logo-big.png"
+    headerSubtitle = ""
+    keywords = [
+        "productions",
+        "records",
+        "label"
+    ]
+    revisitAfter = "30"
+    showFooterSocial = true
+    showHeaderSocial = true
+
+    [[params.social]]
+        name = "instagram"
+        url = "https://www.instagram.com/warartsprod/"
+    [[params.social]]
+        name = "facebook"
+        url = "https://www.facebook.com/War-Arts-Productions-429686763864481"
+
+    # [[params.menuExtras]]
+    #     name = "shop"
+    #     url = "https://shop.war-arts.com/"
+
+    [params.style]
+        backgroundColor = "#000000"
+        faviconBackgroundColor = "#000000"
+        fontColor = "#f8f8f8"
+        fontColorHeader = "#f8f8f8"
+        fontColorHover = "#8a8a8f"
+        fontColorLink = "#f8f8f8"
+        fontSize = "16px"
+        footerBackgroundColor = "#000000"
+        footerFontColor = "#8a8a8f"
+        footerFontColorHover = "#f8f8f8"
+        footerFontColorLink = "#8a8a8f"
+        headerBackgroundColor = "#000000"
+        headerFontColor = "#ffffff"
+        headerFontColorHover = "#8a8a8f"
+        headerFontColorLink = "#ffffff"
+        sectionBackgroundColors = "#ffffff, #f3f3f3, #ffffff, #f3f3f3, #ffffff, #f3f3f3"
+        sectionFontColors = "#000000, #000000, #000000, #000000, #000000, #000000"
+
+[minify]
+  disableCSS = false
+  disableHTML = false
+  disableXML = false
+  minifyOutput = true

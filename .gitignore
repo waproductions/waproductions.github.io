@@ -1,0 +1,29 @@
+# Hugo
+/resources/
+/assets/jsconfig.json
+hugo_stats.json
+/.hugo_build.lock
+!.gitkeep
+
+# Sass
+.sass-cache/
+*.css.map
+*.sass.map
+*.scss.map
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon
+
+# Linux
+*~
+
+# Windows
+Desktop.ini
+Thumbs.db
+ehthumbs.db
+ehthumbs_vista.db
+[Dd]esktop.ini
