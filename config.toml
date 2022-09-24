@@ -23,6 +23,7 @@ title = "War Arts Productions"
     headerBackground = "/images/background.jpg"
     headerLogo = "/images/logo-big.png"
     headerSubtitle = ""
+    # hideFooterTheme = false
     keywords = [
         "productions",
         "records",
@@ -59,6 +60,7 @@ title = "War Arts Productions"
         headerFontColor = "#ffffff"
         headerFontColorHover = "#8a8a8f"
         headerFontColorLink = "#ffffff"
+        safariPinnedTabColor = "#000000"
         sectionBackgroundColors = "#ffffff, #f3f3f3, #ffffff, #f3f3f3, #ffffff, #f3f3f3"
         sectionFontColors = "#000000, #000000, #000000, #000000, #000000, #000000"
 
