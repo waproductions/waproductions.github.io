@@ -40,9 +40,9 @@ title = "War Arts Productions"
         name = "facebook"
         url = "https://www.facebook.com/War-Arts-Productions-429686763864481"
 
-    # [[params.menuExtras]]
-    #     name = "shop"
-    #     url = "https://shop.war-arts.com/"
+    [[params.menuExtras]]
+        name = "Store"
+        url = "https://store.electricmassrecords.com/collections/war-arts-productions"
 
     [params.style]
         backgroundColor = "#000000"
