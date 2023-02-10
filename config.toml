@@ -19,7 +19,7 @@ title = "War Arts Productions"
 
 [params]
     copyright = "&copy; 2022 War Arts Productions"
-    description = "War Arsts Productions' website."
+    description = "War Arts Productions' website."
     headerBackground = "/images/background.jpg"
     headerLogo = "/images/logo-big.png"
     headerSubtitle = ""
