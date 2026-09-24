@@ -1,26 +1,25 @@
 [author]: # (Frederico Martins <http://github.com/fscm>)
-[version]: # (1.0)
+[version]: # (2.0)
 [license]: # (SPDX-License-Identifier: CC-BY-4.0)
-[copyright]: # (2016-2022, Frederico Martins)
-
-This project follows a No Code of Conduct (NCoC) philosophy. We are all human
-beings. We should all be capable of getting along well.
+[copyright]: # (SPDX-FileCopyrightText: 2026 Frederico Martins)
 
 # Contributor (No) Code of Conduct
 
-Everyone is expected to behave like an adult and therefore be capable of
-having adult discussions. Everyone contributions are accepted regardless of
-their level of experience, gender, gender identity and expression, sexual
-orientation, disability, personal appearance, body size, race, ethnicity, age,
-religion, or nationality. The owners or copyright holders of this project are
-not members of a support group for human emotion. This is a community that
-strives to focus around its topics. Anything else takes away from that.
+This project welcomes contributions from everyone, regardless of
+experience level, background, or identity.
 
-Everyone should be able to freely express their ideas without being offended
-by nor offend others.
+All participants are expected to treat each other with respect and
+courtesy at all times. Disagreements happen, but there is no excuse for
+disrespectful behavior. Anyone who cannot engage constructively may be
+removed from the community at the maintainers' discretion.
 
-PROBLEMS, OR OTHER SITUATIONS, SHOULD BE ADDRESSED LIKE IN ANY OTHER PLATFORM,
-PROJECT OR DISCUSSION FORUM. IN NO EVENT SHALL THE OWNERS OR COPYRIGHT HOLDERS
-OF THIS PROJECT BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
-IN AN ACTION, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH
-THIS PROJECT COMMUNITY.
+This project enforces a strict No AI policy. Contributions of any kind
+including, but not limited to, issues, patches, pull requests, comments,
+and translations, must be entirely the work of a human being. Content
+generated or assisted by large language models or any other AI tools is
+not permitted and will be rejected without further consideration.
+
+The owners and maintainers of this project are not responsible for, and
+shall not be held liable for, any conflicts, claims, or damages arising
+from interactions between participants, whether within or outside this
+community's spaces.
