@@ -21,5 +21,5 @@ who participated in this project.
 
 ## License
 
-This project is licensed under a Creative Commons Attribution 4.0
+This project is licensed under the Creative Commons Attribution 4.0
 International License - see the [LICENSE](LICENSE) file for details.
