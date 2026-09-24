@@ -11,14 +11,14 @@ disableKinds = [
 ]
 languageCode = 'en-us'
 publishDir = "docs"
-theme = "electric-mass"
+theme = "war-arts"
 title = "War Arts Productions"
 
 [author]
     name = "Frederico Martins"
 
 [params]
-    copyright = "&copy; 2022 War Arts Productions"
+    copyright = "&copy; 2025 War Arts Productions"
     description = "War Arts Productions' website."
     headerBackground = "/images/background.jpg"
     headerLogo = "/images/logo-big.png"
