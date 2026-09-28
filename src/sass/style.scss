@@ -1,9 +1,7 @@
 /* SPDX-FileCopyrightText: 2026 Frederico Martins */
 /* SPDX-License-Identifier: GPL-3.0-only          */
 
-/* 0. Normalize / Fonts */
-@use 'vendor/modern-normalize/modern-normalize';
-
+/* 0. Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
 
 /*! war-arts | GPL-3.0-only | https://war-arts.com */
@@ -18,8 +16,6 @@ $color-text-muted: #b0b0b0;
 $color-text-faint: #888;
 $color-accent: #a82020;
 $color-accent-bright: #cc0000;
-$color-link: $color-text;
-$color-link-hover: $color-accent;
 
 $font-sans: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 $font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
@@ -62,14 +58,14 @@ body {
 }
 
 a {
-  color: $color-link;
+  color: $color-text;
   text-decoration: underline;
   text-underline-offset: 0.15em;
   text-decoration-color: rgba(236, 236, 236, 0.35);
   transition: color 0.15s, text-decoration-color 0.15s;
   &:hover,
   &:focus-visible {
-    color: $color-link-hover;
+    color: $color-accent;
     text-decoration-color: $color-accent;
   }
 }
@@ -117,25 +113,6 @@ cite {
   color: $color-text-muted;
 }
 
-.skip-link {
-  position: absolute;
-  left: -9999px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-  background: $color-bg;
-  color: $color-text;
-  padding: 0.75rem 1rem;
-  z-index: 100;
-  &:focus {
-    left: 1rem;
-    top: 1rem;
-    width: auto;
-    height: auto;
-  }
-}
-
 /* 3. Layout utilities */
 .wrapper {
   width: 100%;
@@ -144,12 +121,13 @@ cite {
 }
 
 .wrapper--wide {
+  width: 100%;
   max-width: $width-wide;
+  margin-inline: auto;
 }
 
 .section {
   min-height: 100vh;
-  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -160,7 +138,6 @@ cite {
 /* 4. Header / Hero + Nav */
 #top {
   min-height: 100vh;
-  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -248,22 +225,9 @@ cite {
   }
 }
 
-// .cta--store {
-//   border-color: $color-accent;
-//   background: $color-accent;
-//   color: #fff;
-//   &:hover,
-//   &:focus-visible {
-//     background: $color-accent-bright;
-//     border-color: $color-accent-bright;
-//     color: #fff;
-//   }
-// }
-
 /* 5. About */
 #about {
   min-height: 100vh;
-  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
@@ -321,19 +285,12 @@ cite {
 /* 6. Releases */
 #releases {
   min-height: 100vh;
-  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: clamp(2rem, 5vw, 6rem);
   background: $color-bg;
-}
-
-#releases .wrapper--wide {
-  width: 100%;
-  max-width: $width-wide;
-  margin-inline: auto;
 }
 
 #releases h2 {
@@ -375,15 +332,19 @@ cite {
   }
 }
 
-.release__catalogue {
+.release__catalogue,
+.release__format {
   font-family: $font-mono;
+  color: $color-text-faint;
+  border: 1px solid $color-rule;
+  white-space: nowrap;
+}
+
+.release__catalogue {
   font-size: 0.75rem;
   letter-spacing: 0.06em;
-  color: $color-text-faint;
   background: $color-surface;
-  border: 1px solid $color-rule;
   padding: 0.15rem 0.4rem;
-  white-space: nowrap;
 }
 
 .release__artist {
@@ -398,25 +359,12 @@ cite {
 }
 
 .release__format {
-  font-family: $font-mono;
   font-size: 0.7rem;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  color: $color-text-faint;
-  border: 1px solid $color-rule;
   padding: 0.15rem 0.35rem;
   margin-left: auto;
-  white-space: nowrap;
 }
-
-/* format badges via data-format (accent hint for LP and EP) */
-// .release[data-format="LP"] .release__format {
-//   border-color: rgba(168, 32, 32, 0.5);
-//   color: #c9a0a0;
-// }
-// .release[data-format="EP"] .release__format {
-//   border-color: rgba(245, 242, 235, 0.22);
-// }
 
 .release__year {
   font-family: $font-mono;
@@ -452,17 +400,6 @@ footer {
   }
 }
 
-// .footer__store {
-//   margin: 1rem 0;
-//   a {
-//     color: $color-text;
-//     font-weight: 700;
-//     text-decoration: underline;
-//     text-decoration-color: $color-accent;
-//     &:hover { color: $color-accent; }
-//   }
-// }
-
 .socials {
   display: flex;
   justify-content: center;
@@ -470,7 +407,6 @@ footer {
   list-style: none;
   padding: 1.25rem 0 0;
   margin: 1.25rem 0 0;
-  // border-top: 1px solid $color-rule;
 
   a {
     display: inline-flex;
@@ -497,21 +433,9 @@ footer {
   }
 }
 
-// .back-to-top {
-//   display: inline-block;
-//   margin-top: 1.5rem;
-//   font-size: 0.75rem;
-//   letter-spacing: 0.12em;
-//   text-transform: uppercase;
-//   text-decoration: none;
-//   color: $color-text-faint;
-//   &:hover { color: $color-text; }
-// }
-
 /* 8. 404 */
 .error-page {
   min-height: 100vh;
-  min-height: 100svh;
   min-height: 100dvh;
   display: flex;
   flex-direction: column;
